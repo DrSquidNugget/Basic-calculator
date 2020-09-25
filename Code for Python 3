@@ -1,0 +1,21 @@
+Question1 = int(input("Enter your first number "))
+Question2 = int(input("Enter your second number "))
+keepaskin = True
+while keepaskin == True:
+ calc = input("What calculation do you want to do?  x + - / ")
+ if calc == ("x"):
+   keepaskin = False
+   answer = Question1 * Question2
+   print (answer)
+ if calc == ("-"):
+   keepaskin = False
+   answer = Question1 - Question2
+   print (answer)
+ if calc == ("+"):
+   keepaskin = False
+   answer = Question1 + Question2
+   print (answer)
+ if calc == ("/"):
+   keepaskin = False
+   answer = Question1 / Question2
+   print (answer)
